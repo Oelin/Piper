@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "piper"
+version = "0.1.0"
+description = ""
+authors = ["kore"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mpipe = "^1.0.8"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
