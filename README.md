@@ -1,3 +1,3 @@
 # piper
 
-Functional operators for mpipe.
+Declarative distributed data pipelines in Python.
